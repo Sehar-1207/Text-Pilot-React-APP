@@ -1,71 +1,121 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Text‑Pilot‑React‑APP 🚀
 
-## Available Scripts
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.17.1-green?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![npm](https://img.shields.io/badge/npm-10.2.0-red?logo=npm&logoColor=white)](https://www.npmjs.com/)
+
+**Text Pilot** is a responsive **text utilities web application** built with **React.js**.  
+It helps users manipulate and analyze text quickly in a clean, interactive interface.
+
+## 📌 Features
+
+✅ Convert text to uppercase & lowercase  
+✅ Remove extra spaces  
+✅ Count words and characters  
+✅ Live preview and responsive UI  
+✅ Built with modern React best practices
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js** — JavaScript frontend framework  
+- **HTML & CSS** — UI structure and styling  
+- **JavaScript (ES6+)** — Logic and functionality
+
+---
+
+## 📁 Project Structure
+
+```
+
+Text‑Pilot‑React‑APP/
+┣ 📂 public/
+┣ 📂 src/
+┃ ┣ 📜 App.js
+┃ ┣ 📜 index.js
+┃ ┗ 📜 components/
+┣ 📜 package.json
+┣ 📜 .gitignore
+┗ README.md
+
+````
+
+## 🧪 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Sehar-1207/Text-Pilot-React-APP.git
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+cd Text-Pilot-React-APP
+npm install
+```
+
+### 3️⃣ Run locally
+
+```bash
+npm start
+```
+
+* This starts the app at `http://localhost:3000` in your browser.
+
+---
+
+## 🧩 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+| Script          | Description                             |
+| --------------- | --------------------------------------- |
+| `npm start`     | Runs the app in development mode        |
+| `npm test`      | Launches the test runner                |
+| `npm run build` | Builds the app for production           |
+| `npm run eject` | Ejects the app config (not recommended) |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📈 Usage
 
-### `npm test`
+Once the app is running:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔ Paste or type any text
 
-### `npm run build`
+✔ Use buttons to transform text (uppercase, lowercase, trim spaces, etc.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔ View live updates and statistics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 UI/UX
 
-### `npm run eject`
+Text Pilot is designed to be:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✨ **Responsive** — Works well on mobile & desktop
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✨ **Clean and minimal** — Focus on text utility functions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🤝 Contributing
 
-## Learn More
+Want to improve Text Pilot?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-name`)
+3. Make your changes
+4. Commit (`git commit -m "Add new feature"`)
+5. Push and open a PR
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🙌 Made With ❤️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Thanks for checking out **Text Pilot**!
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Text-Pilot-React-APP" 
+Let me know if you’d like help adding features like dark mode, local storage saving, or deployment instructions.
